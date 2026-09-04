@@ -1,6 +1,6 @@
 # Inside the Walls
 
-![Inside the Walls splash art](assets/inside-the-walls-splash.png)
+![Inside the Walls splash art](Assets/_InsideTheWalls/Resources/UI/InsideTheWalls_KeyArt.png)
 
 > **Nobody leaves unchanged.**
 
@@ -101,7 +101,17 @@ The prison system is fictional and draws general inspiration from North American
 
 ## Project Status
 
-This repository is being prepared for initial development. Architecture, gameplay systems, assets, screenshots, builds, and contribution instructions will be added as they become available.
+The Unity 6.3 LTS URP foundation now boots into a responsive title screen with keyboard, mouse, and controller navigation. New Game opens a two-role selection screen and a small third-person gray-box interaction for the signature “Missing Ten Minutes” scenario. Continue remains honestly disabled until persistence exists.
+
+### Run the foundation build
+
+1. Install Unity `6000.3.0f1` with Windows Build Support through Unity Hub.
+2. Clone this repository and open its root folder as the Unity project.
+3. Open `Assets/_InsideTheWalls/Scenes/Boot/Boot.unity` and enter Play Mode.
+
+The checked-in Editor build command is `InsideTheWalls.Editor.FoundationBuild.ValidateAndBuild`; it validates the menu rules and creates a Windows development player at `Builds/Windows/InsideTheWalls.exe`. Generated builds are intentionally ignored by Git.
+
+Current visual proof: [foundation menu at 1280×720](Docs/Screenshots/foundation-menu.png).
 
 ## Contributing
 
@@ -119,4 +129,4 @@ The canonical repository is `https://github.com/Troublez905/Inside-the-Walls`.
 
 ## License
 
-No open-source license has been selected. Unless a license file is added, the source code and original assets remain all rights reserved.
+Code in this repository is distributed under the GNU General Public License v3.0; see `LICENSE`. Supplied or generated visual references may have separate provenance requirements and must not be treated as production-ready until their rights are recorded in the graphics register.

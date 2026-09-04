@@ -6,18 +6,18 @@ Use this checklist with `roadmap.md` and `prompt-insidethewalls.md`. Complete an
 
 - [ ] Revoke the GitHub personal access token previously exposed in chat.
 - [ ] Create a replacement token only if GitHub CLI authentication is insufficient.
-- [ ] Authenticate locally with `gh auth login` or a credential manager.
-- [ ] Confirm no token, password, API key, or secret exists in any project file.
-- [ ] Confirm the canonical repository is `https://github.com/Troublez905/Inside-the-Walls`.
-- [ ] Confirm the local project directory is `C:\Users\ghost\Desktop\Ideas-Brainstorms\00-insidethewalls`.
+- [x] Authenticate locally with `gh auth login` or a credential manager.
+- [x] Confirm no token, password, API key, or secret exists in any project file.
+- [x] Confirm the canonical repository is `https://github.com/Troublez905/Inside-the-Walls`.
+- [x] Confirm the local project directory is `C:\Users\ghost\Desktop\Ideas-Brainstorms\00-insidethewalls`.
 
 ## 2. Prepare the GitHub Repository
 
-- [ ] Initialize Git in the local project directory if it is not already initialized.
-- [ ] Connect the local repository to the canonical GitHub repository.
-- [ ] Add a Unity-specific `.gitignore` before importing generated Unity files.
-- [ ] Add `README.md`, `roadmap.md`, `prompt-insidethewalls.md`, and this checklist.
-- [ ] Decide on a license and add `LICENSE` when ready.
+- [x] Initialize Git in the local project directory if it is not already initialized.
+- [x] Connect the local repository to the canonical GitHub repository.
+- [x] Add a Unity-specific `.gitignore` before importing generated Unity files.
+- [x] Add `README.md`, `roadmap.md`, `prompt-insidethewalls.md`, and this checklist.
+- [x] Decide on a license and add `LICENSE` when ready.
 - [ ] Add `CONTRIBUTING.md` after the development workflow is established.
 - [ ] Add issue templates for bugs, features, art tasks, and technical tasks.
 - [ ] Protect the main branch after the first stable project commit.
@@ -25,12 +25,12 @@ Use this checklist with `roadmap.md` and `prompt-insidethewalls.md`. Complete an
 
 ## 3. Lock the Preproduction Scope
 
-- [ ] Write a one-page game vision.
-- [ ] Define the inmate core gameplay loop.
-- [ ] Define the correctional-officer core gameplay loop.
-- [ ] Write a clear list of features excluded from the first vertical slice.
-- [ ] Define the first playable session from login through save and disconnect.
-- [ ] Define success criteria for a 30-minute test session.
+- [x] Write a one-page game vision.
+- [x] Define the inmate core gameplay loop.
+- [x] Define the correctional-officer core gameplay loop.
+- [x] Write a clear list of features excluded from the first vertical slice.
+- [x] Define the first playable session from login through save and disconnect.
+- [x] Define success criteria for a 30-minute test session.
 - [ ] Create a terminology guide for roles, ranks, departments, and facilities.
 - [ ] Create a decision log for major design and technical choices.
 
@@ -49,13 +49,13 @@ Use this checklist with `roadmap.md` and `prompt-insidethewalls.md`. Complete an
 ## 5. Finish the Art Bible
 
 - [ ] Add the approved splash art and title treatment.
-- [ ] Lock the stylized-realism visual rules.
-- [ ] Lock the core color palette and lighting direction.
-- [ ] Define environment dimensions and modular grid standards.
-- [ ] Define material, texture-resolution, polygon, LOD, and collision budgets.
-- [ ] Create prompts for the exterior, intake, housing unit, cell, yard, and control room.
-- [ ] Create an asset register with status, owner, budget, prefab path, and review date.
-- [ ] Confirm generated references are inspiration only unless their licenses permit direct use.
+- [x] Lock the stylized-realism visual rules.
+- [x] Lock the core color palette and lighting direction.
+- [x] Define environment dimensions and modular grid standards.
+- [x] Define material, texture-resolution, polygon, LOD, and collision budgets.
+- [x] Create prompts for the exterior, intake, housing unit, cell, yard, and control room.
+- [x] Create an asset register with status, owner, budget, prefab path, and review date.
+- [x] Confirm generated references are inspiration only unless their licenses permit direct use.
 
 ## 6. Finish the Character Bible
 
@@ -70,9 +70,9 @@ Use this checklist with `roadmap.md` and `prompt-insidethewalls.md`. Complete an
 
 ## 7. Create the Unity Project
 
-- [ ] Select and document a supported Unity LTS version.
-- [ ] Select and document the render pipeline.
-- [ ] Configure the Unity Input System.
+- [x] Select and document a supported Unity LTS version.
+- [x] Select and document the render pipeline.
+- [x] Configure the Unity Input System.
 - [ ] Create the project folder structure for code, scenes, prefabs, art, audio, UI, tests, and configuration.
 - [ ] Add assembly definitions to keep major systems separated.
 - [ ] Create development, test, client, and dedicated-server configurations.
@@ -182,4 +182,3 @@ Use this checklist with `roadmap.md` and `prompt-insidethewalls.md`. Complete an
 
 - [ ] Complete Sections 1 through 3.
 - [ ] Do not begin full production art or 50-player networking until the offline gray-box loop works.
-
