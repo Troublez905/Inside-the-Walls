@@ -146,7 +146,7 @@ namespace InsideTheWalls.UI
 
         private void DrawSplash(float width, float height)
         {
-            GUI.Label(new Rect(70f, height - 78f, 500f, 32f), "PRE-RELEASE FOUNDATION BUILD", smallStyle);
+            GUI.Label(new Rect(70f, height - 78f, 500f, 32f), "v2.05 - PLAYABLE ALPHA", smallStyle);
             GUI.Label(new Rect(width - 300f, height - 78f, 230f, 32f), "PRESS ANY BUTTON", smallStyle);
         }
 
@@ -171,7 +171,7 @@ namespace InsideTheWalls.UI
 
             GUI.Label(new Rect(panel.x + 34f, panel.y + 398f, 390f, 30f), "Continue: No saved session", smallStyle);
             GUI.Label(new Rect(panel.x + 34f, panel.y + 438f, 390f, 30f), "Nobody leaves unchanged.", labelStyle);
-            GUI.Label(new Rect(width - 370f, height - 46f, 330f, 24f), "v0.1 FOUNDATION  |  LOCAL", smallStyle);
+            GUI.Label(new Rect(width - 440f, height - 46f, 400f, 24f), "v2.05 - PLAYABLE ALPHA  |  LOCAL", smallStyle);
         }
 
         private void DrawSettings(float width, float height)
@@ -205,7 +205,7 @@ namespace InsideTheWalls.UI
             GUI.DrawTexture(panel, panelTexture);
             GUI.Label(new Rect(panel.x + 42f, panel.y + 32f, 620f, 60f), "CREDITS", headingStyle);
             GUI.Label(new Rect(panel.x + 42f, panel.y + 116f, 620f, 230f),
-                "INSIDE THE WALLS\n\nCreated by Troublez905\nBuilt with Unity\n\nFoundation build — pre-release\nReference art pending final rights verification.", labelStyle);
+                "INSIDE THE WALLS\n\nCreated by Troublez905\nBuilt with Unity\n\nv2.05 - Playable Alpha\nReference art pending final rights verification.", labelStyle);
             if (GUI.Button(new Rect(panel.x + 42f, panel.y + 396f, 280f, 54f), "BACK", buttonSelectedStyle))
             {
                 state = ScreenState.Menu;

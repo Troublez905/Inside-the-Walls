@@ -1,5 +1,7 @@
 # Inside the Walls
 
+**Current version: v2.05 - Playable Alpha**
+
 ![Inside the Walls splash art](Assets/_InsideTheWalls/Resources/UI/InsideTheWalls_KeyArt.png)
 
 > **Nobody leaves unchanged.**

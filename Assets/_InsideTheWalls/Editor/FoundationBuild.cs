@@ -16,7 +16,7 @@ namespace InsideTheWalls.Editor
 
             PlayerSettings.companyName = "Troublez905";
             PlayerSettings.productName = "Inside the Walls";
-            PlayerSettings.bundleVersion = "0.1.0";
+            PlayerSettings.bundleVersion = "2.0.5";
             PlayerSettings.fullScreenMode = UnityEngine.FullScreenMode.Windowed;
             PlayerSettings.defaultScreenWidth = 1280;
             PlayerSettings.defaultScreenHeight = 720;
