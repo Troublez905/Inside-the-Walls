@@ -1,0 +1,100 @@
+[
+  {
+    "name": "Bench",
+    "source": "BENCH_Textured_4722484705",
+    "source_triangles": 399962,
+    "runtime_triangles": 7200,
+    "dimensions_blender": [
+      2.699352264404297,
+      1.0344953536987305,
+      1.3644837141036987
+    ],
+    "pivot": "bottom center",
+    "uniform_scale": 1.4175751405699557,
+    "tile_rotation_degrees": 0
+  },
+  {
+    "name": "WallLight",
+    "source": "wall-light_Textured_4722584707",
+    "source_triangles": 399941,
+    "runtime_triangles": 7199,
+    "dimensions_blender": [
+      0.5997297763824463,
+      0.4080848693847656,
+      0.356727659702301
+    ],
+    "pivot": "bottom center",
+    "uniform_scale": 0.3159892216862084,
+    "tile_rotation_degrees": 0
+  },
+  {
+    "name": "OutdoorTileA",
+    "source": "outdoor-tile_Textured_4722684710",
+    "source_triangles": 399457,
+    "runtime_triangles": 1152,
+    "dimensions_blender": [
+      1.9998698234558105,
+      1.8385816812515259,
+      0.5877406597137451
+    ],
+    "pivot": "bottom center",
+    "uniform_scale": 1.050821408320567,
+    "tile_rotation_degrees": 90
+  },
+  {
+    "name": "OutdoorTileB",
+    "source": "outdoor-tile_Textured_4722684721",
+    "source_triangles": 399996,
+    "runtime_triangles": 1152,
+    "dimensions_blender": [
+      1.9998762607574463,
+      1.5225467681884766,
+      0.10693130642175674
+    ],
+    "pivot": "bottom center",
+    "uniform_scale": 1.0503170317697874,
+    "tile_rotation_degrees": 90
+  },
+  {
+    "name": "SecureDoor",
+    "source": "Secure Steel Door_Textured_4717884613",
+    "source_triangles": 5897,
+    "runtime_triangles": 4319,
+    "dimensions_blender": [
+      1.3426300287246704,
+      0.278439462184906,
+      2.5
+    ],
+    "pivot": "bottom center",
+    "uniform_scale": 1.3179009125975156,
+    "tile_rotation_degrees": 0
+  },
+  {
+    "name": "YardFence",
+    "source": "Tall-Yard-Fence_Textured_4717784612",
+    "source_triangles": 5214,
+    "runtime_triangles": 4320,
+    "dimensions_blender": [
+      3.0,
+      0.1255808174610138,
+      1.4716516733169556
+    ],
+    "pivot": "bottom center",
+    "uniform_scale": 1.5821591852131272,
+    "tile_rotation_degrees": 0
+  },
+  {
+    "name": "WallPanel",
+    "source": "wall-panel-01_Textured_4723584732",
+    "source_triangles": 4902,
+    "runtime_triangles": 4320,
+    "dimensions_blender": [
+      2.8000001907348633,
+      0.08457931876182556,
+      1.4602415561676025
+    ],
+    "pivot": "bottom center",
+    "uniform_scale": 1.475100341931893,
+    "tile_rotation_degrees": 0
+  }
+]

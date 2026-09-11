@@ -11,6 +11,18 @@
 
 # Asset Store tools
 /[Aa]ssets/AssetStoreTools*
+/[Aa]ssets/DoubleL/
+/[Aa]ssets/DoubleL.meta
+
+# Local editor/plugin scratch
+/[Aa]ssets/UnityMCP/Log/
+/[Aa]ssets/UnityMCP/Log.meta
+/[Aa]ssets/UnityMCP/
+/[Aa]ssets/UnityMCP.meta
+/[Aa]ssets/Plugins/Roslyn/
+/[Aa]ssets/Plugins/Roslyn.meta
+/output/
+/.vsconfig
 
 # IDE and editor files
 .vs/
@@ -18,6 +30,7 @@
 .idea/
 *.csproj
 *.sln
+*.slnx
 *.suo
 *.tmp
 *.user
@@ -59,4 +72,3 @@ Desktop.ini
 *.pfx
 *.p12
 *.key
-

@@ -1,0 +1,1 @@
+NOAH_SMOKE_FAILED during Walking samples: retargeted leg motion across 12 samples (0.00 degrees). See diagnostics.txt and player/editor log.

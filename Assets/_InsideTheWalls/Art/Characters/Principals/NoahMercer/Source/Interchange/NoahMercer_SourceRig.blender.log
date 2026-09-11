@@ -1,0 +1,20 @@
+00:00.672  blend            | Read blend: "C:\Users\ghost\Desktop\Ideas-Brainstorms\00-insidethewalls\Assets\_InsideTheWalls\Character Models\character-inmate-01-T_Rigged_4652083419\character-inmate-01-T_Rigged_4652083419\character_publish.blend"
+00:01.859  reports          | ERROR Unable to pack file, source path 'C:\tmp\blender_hmfWuk\usd_textures_tmp\BakedTexture.png' not found
+Blender 5.0.0 (hash a37564c4df7a built 2025-11-18 11:06:54)
+00:02.062  reports          | ERROR Unable to pack file, source path 'C:\tmp\blender_hmfWuk\usd_textures_tmp\roughness_map.png' not found
+ERROR: Image "/tmp/blender_hmfWuk/usd_textures_tmp/BakedTexture.png" not available. Keeping packed image
+00:02.437  reports          | ERROR Unable to pack file, source path 'C:\tmp\blender_hmfWuk\usd_textures_tmp\normal_map.png' not found
+ERROR: Image "/tmp/blender_hmfWuk/usd_textures_tmp/roughness_map.png" not available. Keeping packed image
+
+FBX export starting... 'C:\\Users\\ghost\\Desktop\\Ideas-Brainstorms\\00-insidethewalls\\Assets\\_InsideTheWalls\\Art\\Characters\\Principals\\NoahMercer\\Source\\Interchange\\.staging-1c655a0589704163aa979e9e9ad1e998\\NoahMercer_SourceRig.fbx'
+(bpy.data.armatures['rig_BODY'], 'POSE')
+export finished in 2.2794 sec.
+ERROR: Image "/tmp/blender_hmfWuk/usd_textures_tmp/normal_map.png" not available. Keeping packed image
+
+Blender quit
+
+C:\Users\ghost\Desktop\Ideas-Brainstorms\00-insidethewalls\Tools\CharacterPipeline\noah_export.py:96: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  if mat.use_nodes:
+C:\Users\ghost\Desktop\Ideas-Brainstorms\00-insidethewalls\Tools\CharacterPipeline\noah_export.py:123: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  materials.append({"name": mat.name, "nodes": bool(mat.use_nodes), "image_nodes": image_nodes})
+

@@ -1,7 +1,10 @@
 {
   "name": "InsideTheWalls.Runtime",
   "rootNamespace": "InsideTheWalls",
-  "references": [],
+  "references": [
+    "InsideTheWalls.Simulation",
+    "InsideTheWalls.Persistence"
+  ],
   "includePlatforms": [],
   "excludePlatforms": [],
   "allowUnsafeCode": false,

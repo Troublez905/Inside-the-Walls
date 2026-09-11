@@ -2,6 +2,14 @@
 
 Use this checklist with `roadmap.md` and `prompt-insidethewalls.md`. Complete and verify each milestone before expanding the game's scope.
 
+## Current Animated Noah Checkpoint (2026-09-08)
+
+- [x] Generate a valid Humanoid rig, URP material and idle/walk controller while preserving source files.
+- [x] Produce a separate Windows-NoahAlpha development build (zero build warnings).
+- [ ] Verify visible idle/walk animation; hidden-player test returned zero leg motion and a black capture.
+- [x] Prepare Unity MCP package and Python server dependencies.
+- [ ] Start Unity MCP's local HTTP session and verify editor-state/console access. See `Docs/unity-mcp-setup.md`.
+
 ## 1. Secure the Project
 
 - [ ] Revoke the GitHub personal access token previously exposed in chat.
@@ -180,5 +188,10 @@ Use this checklist with `roadmap.md` and `prompt-insidethewalls.md`. Complete an
 
 ## Current Priority
 
-- [ ] Complete Sections 1 through 3.
-- [ ] Do not begin full production art or 50-player networking until the offline gray-box loop works.
+- [x] Offline gray-box playable day exists for inmate and officer routes (compile/build evidence required after latest edits).
+- [x] Local versioned save/Continue is wired; restore now reapplies door progress and respawns at the active objective.
+- [x] Next-needed concept boards are inventoried as reference-only and used to restyle the gray-box.
+- [ ] Confirm rights for any image intended for direct runtime use.
+- [ ] Playtest both roles through lockdown, then Continue from mid-day.
+- [ ] Restore/run EditMode tests once the Test Framework package resolves.
+- [ ] Do not begin multiplayer or full production art until the offline prototype gate passes.

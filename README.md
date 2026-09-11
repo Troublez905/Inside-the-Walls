@@ -1,14 +1,16 @@
 # Inside the Walls
 
-**Current version: v2.05 - Playable Alpha**
+**Current version: v5.o - Pre-Beta Release**
 
-![Inside the Walls splash art](Assets/_InsideTheWalls/Resources/UI/InsideTheWalls_KeyArt.png)
+![Behind The Walls splash art](Assets/_InsideTheWalls/Resources/UI/BehindTheWalls_EnsembleSplash.png)
 
 > **Nobody leaves unchanged.**
 
 **Repository:** [Troublez905/Inside-the-Walls](https://github.com/Troublez905/Inside-the-Walls)
 
-**Inside the Walls** is a planned third-person, persistent online prison simulator built with Unity. Up to 50 players will share a living institution as inmates or correctional officers, while AI-controlled characters keep its routines, jobs, relationships, and conflicts moving when the server is below capacity.
+**Inside the Walls / Behind The Walls** is a planned third-person, persistent online prison simulator built with Unity. Up to 50 players will share a living institution as inmates or correctional officers, while AI-controlled characters keep its routines, jobs, relationships, and conflicts moving when the server is below capacity.
+
+The current `v5.o - Pre-Beta Release` prototype is a local Windows build with a playable prison-day loop, animated inmate/player character support, NPC conversation/calm/shove interactions, imported yard props, and new runtime character prefabs for Officer Lena and Inmate #3.
 
 The project is currently in **pre-production**. The first goal is a focused playable vertical slice, not the complete game described below.
 

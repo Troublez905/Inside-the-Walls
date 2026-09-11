@@ -1,0 +1,26 @@
+{
+  "name": "InsideTheWalls.Simulation.Tests",
+  "rootNamespace": "InsideTheWalls.Simulation.Tests",
+  "references": [
+    "InsideTheWalls.Simulation",
+    "InsideTheWalls.Persistence"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": true,
+  "precompiledReferences": [
+    "nunit.framework.dll"
+  ],
+  "autoReferenced": false,
+  "defineConstraints": [
+    "ITW_TESTS"
+  ],
+  "optionalUnityReferences": [
+    "TestAssemblies"
+  ],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

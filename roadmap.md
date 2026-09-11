@@ -20,6 +20,8 @@
 
 ## Milestone 2: Offline Gray-Box Prototype
 
+2026-09-08 checkpoint: Noah's humanoid/material/controller integration builds, but visible animation verification remains open after an inconclusive hidden-player test. Unity MCP dependencies are prepared; a live editor connection still needs to be started and verified. This does not close the offline prototype gate.
+
 - Build third-person movement, camera, interaction, and animation hooks.
 - Gray-box intake, one housing unit, dining, yard, officer station, and secure routes.
 - Add role selection, doors, keys, permissions, a schedule clock, and local saving.
@@ -104,4 +106,3 @@
 - **Noah Mercer:** A 24-year-old first-time inmate and former construction worker. Frightened but defensive, he can pursue education and release preparation, prison influence, or an unstable mixture of both.
 - **Officer Lena Ortiz:** A 28-year-old probationary officer who previously worked overnight security. She believes communication prevents unnecessary conflict, but institutional pressure tests her judgment and boundaries.
 - **Captain Elias Ward:** A 49-year-old security commander with two decades of experience. A past disturbance saved lives but made him wary of rapid change; he evaluates rookies by their decisions under pressure.
-

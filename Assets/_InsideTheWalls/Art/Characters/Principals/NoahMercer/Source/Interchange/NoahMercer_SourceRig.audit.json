@@ -1,0 +1,374 @@
+{
+  "source": "C:\\Users\\ghost\\Desktop\\Ideas-Brainstorms\\00-insidethewalls\\Assets\\_InsideTheWalls\\Character Models\\character-inmate-01-T_Rigged_4652083419\\character-inmate-01-T_Rigged_4652083419\\character_publish.blend",
+  "source_sha256": "7317AB5D9B938860DF09072C441EC3FA70C918D8C4F4EC68240E9E13FA36BC4B",
+  "blender_version": "5.0.0",
+  "scene_unit_system": "METRIC",
+  "scene_unit_scale": 1.0,
+  "scene_fps": 24.0,
+  "world_bounds": {
+    "min": [
+      -0.76877,
+      -0.168672,
+      0.0
+    ],
+    "max": [
+      0.767672,
+      0.17199,
+      1.89
+    ]
+  },
+  "feet_minimum_y": -0.168672,
+  "feet_minimum_z": 0.0,
+  "forward_facing": "Not proven automatically; requires visual Unity/DCC review.",
+  "meshes": [
+    {
+      "name": "Mesh_001",
+      "vertices": 200000,
+      "polygons": 399998,
+      "triangles": 399998,
+      "materials": [
+        "Material"
+      ],
+      "dimensions_m": [
+        1.536442,
+        0.340663,
+        1.89
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "rotation_euler_degrees": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "parent": "rig_BODY",
+      "vertex_groups": 22,
+      "unweighted_vertices": 0,
+      "max_influences": 7,
+      "shape_keys": [],
+      "modifiers": [
+        {
+          "name": "Armature",
+          "type": "ARMATURE",
+          "object": "rig_BODY"
+        }
+      ],
+      "armature_modifiers": [
+        "rig_BODY"
+      ]
+    }
+  ],
+  "armatures": [
+    {
+      "name": "rig_BODY",
+      "bones": 26,
+      "deform_bones": 26,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "rotation_euler_degrees": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions_m": [
+        1.413092,
+        0.274777,
+        1.859405
+      ],
+      "bones_ordered": [
+        {
+          "name": "Hips",
+          "parent": null,
+          "deform": true
+        },
+        {
+          "name": "Spine",
+          "parent": "Hips",
+          "deform": true
+        },
+        {
+          "name": "Spine1",
+          "parent": "Spine",
+          "deform": true
+        },
+        {
+          "name": "Spine2",
+          "parent": "Spine1",
+          "deform": true
+        },
+        {
+          "name": "Neck",
+          "parent": "Spine2",
+          "deform": true
+        },
+        {
+          "name": "Head",
+          "parent": "Neck",
+          "deform": true
+        },
+        {
+          "name": "LeftShoulder",
+          "parent": "Spine2",
+          "deform": true
+        },
+        {
+          "name": "LeftArm",
+          "parent": "LeftShoulder",
+          "deform": true
+        },
+        {
+          "name": "LeftForeArm",
+          "parent": "LeftArm",
+          "deform": true
+        },
+        {
+          "name": "LeftHand",
+          "parent": "LeftForeArm",
+          "deform": true
+        },
+        {
+          "name": "LeftHand_IK",
+          "parent": "LeftForeArm",
+          "deform": true
+        },
+        {
+          "name": "RightShoulder",
+          "parent": "Spine2",
+          "deform": true
+        },
+        {
+          "name": "RightArm",
+          "parent": "RightShoulder",
+          "deform": true
+        },
+        {
+          "name": "RightForeArm",
+          "parent": "RightArm",
+          "deform": true
+        },
+        {
+          "name": "RightHand",
+          "parent": "RightForeArm",
+          "deform": true
+        },
+        {
+          "name": "RightHand_IK",
+          "parent": "RightForeArm",
+          "deform": true
+        },
+        {
+          "name": "LeftUpLeg",
+          "parent": "Hips",
+          "deform": true
+        },
+        {
+          "name": "LeftLeg",
+          "parent": "LeftUpLeg",
+          "deform": true
+        },
+        {
+          "name": "LeftFoot",
+          "parent": "LeftLeg",
+          "deform": true
+        },
+        {
+          "name": "LeftToeBase",
+          "parent": "LeftFoot",
+          "deform": true
+        },
+        {
+          "name": "LeftFoot_IK",
+          "parent": "LeftLeg",
+          "deform": true
+        },
+        {
+          "name": "RightUpLeg",
+          "parent": "Hips",
+          "deform": true
+        },
+        {
+          "name": "RightLeg",
+          "parent": "RightUpLeg",
+          "deform": true
+        },
+        {
+          "name": "RightFoot",
+          "parent": "RightLeg",
+          "deform": true
+        },
+        {
+          "name": "RightToeBase",
+          "parent": "RightFoot",
+          "deform": true
+        },
+        {
+          "name": "RightFoot_IK",
+          "parent": "RightLeg",
+          "deform": true
+        }
+      ]
+    }
+  ],
+  "actions": [],
+  "animation_linkage": {
+    "active_action": null,
+    "nla_tracks": [],
+    "exported": false,
+    "reason": "Source actions require compatibility/root-motion review before bounded clip export."
+  },
+  "materials": [
+    {
+      "name": "Material",
+      "nodes": true,
+      "image_nodes": [
+        {
+          "node": "Image Texture",
+          "image": "BakedTexture.png",
+          "resolved_path": "C:\\Users\\ghost\\Desktop\\Ideas-Brainstorms\\00-insidethewalls\\Assets\\_InsideTheWalls\\Character Models\\character-inmate-01-T_Rigged_4652083419\\character-inmate-01-T_Rigged_4652083419\\textures\\BakedTexture.png",
+          "exists": false,
+          "packed": true,
+          "size": [
+            2048,
+            2048
+          ],
+          "colorspace": "sRGB",
+          "usage": [
+            {
+              "node": "Principled BSDF",
+              "socket": "Base Color"
+            }
+          ],
+          "handoff_path": "Textures/NoahMercer_BaseColor.png",
+          "handoff_sha256": "2B74ECD122F371CC3A3B3F9F36248465153A04D5B6F52CEC51CB36B2BBD885D4"
+        },
+        {
+          "node": "Image Texture.001",
+          "image": "roughness_map.png",
+          "resolved_path": "C:\\Users\\ghost\\Desktop\\Ideas-Brainstorms\\00-insidethewalls\\Assets\\_InsideTheWalls\\Character Models\\character-inmate-01-T_Rigged_4652083419\\character-inmate-01-T_Rigged_4652083419\\textures\\roughness_map.png",
+          "exists": false,
+          "packed": true,
+          "size": [
+            2048,
+            2048
+          ],
+          "colorspace": "Non-Color",
+          "usage": [
+            {
+              "node": "Principled BSDF",
+              "socket": "Roughness"
+            }
+          ],
+          "handoff_path": "Textures/NoahMercer_Roughness.png",
+          "handoff_sha256": "758D5FC3A51997024BA5A6F4546CA9185D95495125FCF147E5159091B04442D5"
+        },
+        {
+          "node": "Image Texture.002",
+          "image": "normal_map.png",
+          "resolved_path": "C:\\Users\\ghost\\Desktop\\Ideas-Brainstorms\\00-insidethewalls\\Assets\\_InsideTheWalls\\Character Models\\character-inmate-01-T_Rigged_4652083419\\character-inmate-01-T_Rigged_4652083419\\textures\\normal_map.png",
+          "exists": false,
+          "packed": true,
+          "size": [
+            2048,
+            2048
+          ],
+          "colorspace": "Non-Color",
+          "usage": [
+            {
+              "node": "Normal Map",
+              "socket": "Color"
+            }
+          ],
+          "handoff_path": "Textures/NoahMercer_Normal.png",
+          "handoff_sha256": "90106D5BED86B4CC585C6F699F76F34597B898C9285A2B286E7FE0134DAED30C"
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "name": "BakedTexture.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "packed": true,
+      "source_filepath": "C:\\Users\\ghost\\Desktop\\Ideas-Brainstorms\\00-insidethewalls\\Assets\\_InsideTheWalls\\Character Models\\character-inmate-01-T_Rigged_4652083419\\character-inmate-01-T_Rigged_4652083419\\textures\\BakedTexture.png",
+      "handoff_path": "Textures/NoahMercer_BaseColor.png"
+    },
+    {
+      "name": "normal_map.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "packed": true,
+      "source_filepath": "C:\\Users\\ghost\\Desktop\\Ideas-Brainstorms\\00-insidethewalls\\Assets\\_InsideTheWalls\\Character Models\\character-inmate-01-T_Rigged_4652083419\\character-inmate-01-T_Rigged_4652083419\\textures\\normal_map.png",
+      "handoff_path": "Textures/NoahMercer_Normal.png"
+    },
+    {
+      "name": "roughness_map.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "packed": true,
+      "source_filepath": "C:\\Users\\ghost\\Desktop\\Ideas-Brainstorms\\00-insidethewalls\\Assets\\_InsideTheWalls\\Character Models\\character-inmate-01-T_Rigged_4652083419\\character-inmate-01-T_Rigged_4652083419\\textures\\roughness_map.png",
+      "handoff_path": "Textures/NoahMercer_Roughness.png"
+    }
+  ],
+  "texture_manifest": [
+    {
+      "semantic": "BaseColor",
+      "path": "Textures/NoahMercer_BaseColor.png",
+      "bytes": 4105652,
+      "sha256": "2B74ECD122F371CC3A3B3F9F36248465153A04D5B6F52CEC51CB36B2BBD885D4"
+    },
+    {
+      "semantic": "Roughness",
+      "path": "Textures/NoahMercer_Roughness.png",
+      "bytes": 951060,
+      "sha256": "758D5FC3A51997024BA5A6F4546CA9185D95495125FCF147E5159091B04442D5"
+    },
+    {
+      "semantic": "Normal",
+      "path": "Textures/NoahMercer_Normal.png",
+      "bytes": 4032019,
+      "sha256": "90106D5BED86B4CC585C6F699F76F34597B898C9285A2B286E7FE0134DAED30C"
+    }
+  ],
+  "export": {
+    "path": "NoahMercer_SourceRig.fbx",
+    "bytes": 18877660,
+    "sha256": "2552E8AE219BBAB7CD4DB2423AABCA416AE98F872B798934A4038ACF67C37191",
+    "axis_forward": "-Z",
+    "axis_up": "Y",
+    "apply_unit_scale": true,
+    "scale_mode": "FBX_SCALE_UNITS",
+    "deform_bones_only": true,
+    "add_leaf_bones": false,
+    "all_actions": false,
+    "animations_exported": false,
+    "embedded_textures": false,
+    "settings_version": "1.1",
+    "script_sha256": "0ADEF9EC39DDE6A3B9992F2899383957DDF2EAEF2000EFB0EB05E52AE6BFE2A7",
+    "runtime_classification": "Showcase/source-only: 399,998 triangles and up to 7 skin influences are not runtime-ready.",
+    "intended_unity_skin_weights": "Reduce and validate to maximum 4 influences per vertex before runtime integration."
+  },
+  "unity_status": "Interchange export only; Humanoid avatar and runtime readiness require Unity import validation."
+}

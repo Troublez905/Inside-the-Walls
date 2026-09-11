@@ -1,0 +1,177 @@
+{
+  "objects": [
+    {
+      "source": "BENCH_Textured_4722484705",
+      "vertices": 199953,
+      "faces": 399962,
+      "triangles": 399962,
+      "uv_count": 218850,
+      "bounds": [
+        [
+          -0.953519,
+          -0.0,
+          -0.365375
+        ],
+        [
+          0.951142,
+          0.962079,
+          0.363626
+        ]
+      ],
+      "sha256": "6d272507fc6237ed20b999debfae974c18408d7504d26278250cd1994972dbe1",
+      "duplicate_of": null
+    },
+    {
+      "source": "outdoor-tile_Textured_4722684710",
+      "vertices": 199728,
+      "faces": 399457,
+      "triangles": 399457,
+      "uv_count": 203480,
+      "bounds": [
+        [
+          -0.952645,
+          -0.0,
+          -0.279232
+        ],
+        [
+          0.950628,
+          1.749837,
+          0.278594
+        ]
+      ],
+      "sha256": "9ecc82bd394750c454369a271969d6078197b5862b67c141c925d88b6894cc55",
+      "duplicate_of": null
+    },
+    {
+      "source": "outdoor-tile_Textured_4722684721",
+      "vertices": 200000,
+      "faces": 399996,
+      "triangles": 399996,
+      "uv_count": 202592,
+      "bounds": [
+        [
+          -0.953086,
+          -0.0,
+          -0.049655
+        ],
+        [
+          0.951101,
+          1.449674,
+          0.052215
+        ]
+      ],
+      "sha256": "05efb19b2cb182ea39125b41f74d11b13170512a9ceee33461a5fb07818c9f6a",
+      "duplicate_of": null
+    },
+    {
+      "source": "Secure Steel Door_Textured_4717884613",
+      "vertices": 2951,
+      "faces": 5897,
+      "triangles": 5897,
+      "uv_count": 3737,
+      "bounds": [
+        [
+          -0.50803,
+          0.0,
+          -0.130255
+        ],
+        [
+          0.510734,
+          1.896956,
+          0.08102
+        ]
+      ],
+      "sha256": "80346ebdd22e29515a9b9aa2112113abd9128d5ff01b6f3f6ab888664c95861c",
+      "duplicate_of": null
+    },
+    {
+      "source": "Tall-Yard-Fence_Textured_4717784612",
+      "vertices": 2596,
+      "faces": 5214,
+      "triangles": 5214,
+      "uv_count": 4977,
+      "bounds": [
+        [
+          -0.946725,
+          0.0,
+          -0.040965
+        ],
+        [
+          0.949418,
+          0.930176,
+          0.038408
+        ]
+      ],
+      "sha256": "e14c0c392efe00c7ef4ead3e1fd0b79af08b806034ab0da1c2f53683eca2fa57",
+      "duplicate_of": null
+    },
+    {
+      "source": "wall-light_Textured_4722584707",
+      "vertices": 199943,
+      "faces": 399941,
+      "triangles": 399941,
+      "uv_count": 225137,
+      "bounds": [
+        [
+          -0.945799,
+          -0.0,
+          -0.616698
+        ],
+        [
+          0.953,
+          1.129686,
+          0.674401
+        ]
+      ],
+      "sha256": "5a8b3ab900c0bd959df327baa95b833cd19da1f84fa7ab63c1a05659edf71a4d",
+      "duplicate_of": null
+    },
+    {
+      "source": "wall-panel-01_Textured_4723584732",
+      "vertices": 2479,
+      "faces": 4902,
+      "triangles": 4902,
+      "uv_count": 3444,
+      "bounds": [
+        [
+          -0.947331,
+          0.0006,
+          0.237739
+        ],
+        [
+          0.950845,
+          0.990527,
+          0.295077
+        ]
+      ],
+      "sha256": "92f33cd8a1a957dc87d9d220db54465793f86bf0c33c7360ea1ea3480a393249",
+      "duplicate_of": null
+    },
+    {
+      "source": "wall-panel-01_Textured_4723584732 (1)",
+      "vertices": 2479,
+      "faces": 4902,
+      "triangles": 4902,
+      "uv_count": 3444,
+      "bounds": [
+        [
+          -0.947331,
+          0.0006,
+          0.237739
+        ],
+        [
+          0.950845,
+          0.990527,
+          0.295077
+        ]
+      ],
+      "sha256": "92f33cd8a1a957dc87d9d220db54465793f86bf0c33c7360ea1ea3480a393249",
+      "duplicate_of": "wall-panel-01_Textured_4723584732"
+    }
+  ],
+  "character_source_names": [
+    "character.usdz",
+    "character_publish.blend",
+    "fscharacterpublish_animated.usdz"
+  ]
+}
